@@ -8,3 +8,4 @@ function shout(lower){
 function whisper(upper){
   return upper.toLowerCase()
 }
+
