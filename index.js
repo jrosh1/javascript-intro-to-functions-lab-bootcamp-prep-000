@@ -9,4 +9,7 @@ function whisper(upper){
   return upper.toLowerCase()
 }
 
-function 
+function logShout(lower){
+  lower = lower.toUpperCase()
+  console.log(lower)
+}
