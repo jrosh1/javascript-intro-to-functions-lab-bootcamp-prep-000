@@ -1,6 +1,10 @@
-var string = "hello"
+var lower = "hello"
+var upper = "HELLO"
 
-function shout(string){
-  return string.toUpperCase()
+function shout(lower){
+  return lower.toUpperCase()
 }
 
+function whisper(upper){
+  return upper.toLowerCase()
+}
